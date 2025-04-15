@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stark Gym Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Stark Gym Management System</h1>
+        <p>Manage members, classes, attendance, and payments effortlessly.</p>
+    </header>
+
+    <main>
+        <!-- Members Section -->
+        <section id="members">
+            <h2>Members</h2>
+            <div id="members-list"></div>
+            <button onclick="addMember()">Add Member</button>
+        </section>
+
+        <!-- Workout Classes Section -->
+        <section id="classes">
+            <h2>Workout Classes</h2>
+            <div id="classes-list"></div>
+            <button onclick="addClass()">Add Class</button>
+        </section>
+
+        <!-- Attendance Section -->
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <div id="attendance-list"></div>
+            <button onclick="addAttendance()">Add Attendance</button>
+        </section>
+
+        <!-- Payments Section -->
+        <section id="payments">
+            <h2>Payments</h2>
+            <div id="payments-list"></div>
+            <button onclick="addPayment()">Add Payment</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Stark Gym Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
